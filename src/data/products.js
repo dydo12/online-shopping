@@ -70,4 +70,7 @@ export const products = [
   { id: 34, name: 'Stud Earrings Set', brand: 'Coast & Pine', category: 'Accessories', price: 24, hue: 6, image: IMG.studEarrings, desc: 'Sparkling floral stud earrings, sold as a set.' },
   { id: 35, name: 'Round Sunglasses', brand: 'Northline', category: 'Accessories', price: 52, hue: 28, image: IMG.sunRound, desc: 'Retro round frames with UV-protective lenses.' },
   { id: 36, name: 'Square Frame Sunglasses', brand: 'Halden & Co.', category: 'Accessories', price: 62, hue: 12, image: IMG.sunWayfarer, desc: 'Bold square frames for everyday sun protection.' },
+
+  // Not part of any filterable category — only visible by scrolling "All"
+  { id: 37, name: 'dydo', brand: 'Happy Shop', category: 'Unlisted', price: 10000, hue: 100, image: 'https://e1.pngegg.com/pngimages/649/608/png-clipart-3d-yoshi-yoshi-3d-illustration.png', desc: 'A rare find.' },
 ]
