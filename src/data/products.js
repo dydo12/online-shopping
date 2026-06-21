@@ -73,4 +73,7 @@ export const products = [
 
   // Not part of any filterable category — only visible by scrolling "All"
   { id: 37, name: 'dydo', brand: 'Happy Shop', category: 'Unlisted', price: 10000, hue: 100, image: 'https://e1.pngegg.com/pngimages/649/608/png-clipart-3d-yoshi-yoshi-3d-illustration.png', desc: 'A rare find.' },
+  { id: 38, name: 'baobao', brand: 'Happy Shop', category: 'Unlisted', price: 10000, hue: 150, image: 'https://www.hopscotchstore.com/cdn/shop/files/JellyCat-Allexi-Alligator-Plush-Stuffed-Animals-JellyCat.jpg?v=1751256344&width=900', desc: 'A rare find.' },
+  { id: 39, name: 'panda', brand: 'Happy Shop', category: 'Unlisted', price: 10000, hue: 0, image: 'https://www.destinationbabykids.com/cdn/shop/products/L3PD.jpg?v=1633064545&width=900', desc: 'A rare find.' },
+  { id: 40, name: 'sakura', brand: 'Happy Shop', category: 'Unlisted', price: 10000, hue: 340, image: 'https://cuteasbuttons.com/cdn/shop/files/IMG-2321.jpg?width=900', desc: 'A rare find.' },
 ]
