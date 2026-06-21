@@ -10,7 +10,7 @@ export default function Header({ view, setView }) {
           onClick={() => setView('shop')}
           className="text-xl font-semibold tracking-tight text-stone-900"
         >
-          FIELDHOUSE
+          HAPPY SHOP
         </button>
         <nav className="flex items-center gap-6">
           <button

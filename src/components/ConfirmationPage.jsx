@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 
 export default function ConfirmationPage({ setView }) {
-  const orderNumber = useMemo(() => `FH-${Math.floor(100000 + Math.random() * 900000)}`, [])
+  const orderNumber = useMemo(() => `HS-${Math.floor(100000 + Math.random() * 900000)}`, [])
 
   return (
     <main className="mx-auto flex max-w-2xl flex-col items-center px-6 py-28 text-center">

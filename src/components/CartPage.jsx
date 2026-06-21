@@ -32,8 +32,9 @@ export default function CartPage({ setView }) {
           {items.map((item) => (
             <div key={item.id} className="flex gap-4 py-6">
               <ProductImage
-                category={item.category}
+                image={item.image}
                 hue={item.hue}
+                alt={`${item.brand} ${item.name}`}
                 className="h-24 w-20 flex-shrink-0 rounded-md"
               />
               <div className="flex flex-1 flex-col justify-between">

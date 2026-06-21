@@ -16,8 +16,9 @@ export default function ProductCard({ product }) {
     <div className="group flex flex-col">
       <div className="relative aspect-[4/5] overflow-hidden rounded-lg">
         <ProductImage
-          category={product.category}
+          image={product.image}
           hue={product.hue}
+          alt={`${product.brand} ${product.name}`}
           className="h-full w-full transition-transform duration-300 group-hover:scale-105"
         />
         <button
